@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    color: white;
+    font-family:magz, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu_fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f0362;
+}
+
+.a_menu{
+    color: white;
+    text-decoration: none;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.pesquisa{
+    background-color: #016785;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.PROMOCOES{
+    background-color: #1f0362;
+}
+
+.promocao_texto{
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+
+#semana{
+    color: white;
+    font-family: magz, sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.tenis_promocao{
+    border: 2px solid #016785;
+    width: 200px;
+    border-radius: 16px;
+    background-color: #016785;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 10+
+    
+    0px;
+    margin-bottom: 20px;
+    
+}
+
+.PROMOCOES{
+    display: flex;
+}
+
+.texto_tenis{
+    font-family: poppins;
+    color: white;
+}
+
+#tenis_nike{
+    width: 200px;
+}
+
+#preco_antigo{
+    font-family: poppins;
+    color: white;
+}
+
+#preco_atual{
+    font-family: poppins;
+    color: #1f0362;
+    font-size: 35px;
+}
+
+.desconto{
+    margin-top: 65px;
+    position: relative;
+    left: 100px;
+}
+
+
+.RODAPE{
+    background-color: #016785;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.texto_rodape{
+    color: #1f0362;
+    font-family: poppins;
+    margin-left: 15px;
+}
+
+.a_rodape{
+    color: #1f0362;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+.a_rodape:hover{
+    color: white
+}
+
+.numero_de_tel{
+    color: #1f0362;
+    font-family: poppins;
+}
+
+.ICONES_RODAPE{
+    margin-left: -380px;
+}
+
+
+.carrossel {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.carrossel input[type="radio"] {
+  display: none;
+}
+.slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+#carrossel1:checked ~ .slides .s1,
+#carrossel2:checked ~ .slides .s2,
+#carrossel3:checked ~ .slides .s3 {
+  opacity: 1;
+  z-index: 1;
+}
+/* Setas do carrossel de fotos */
+.seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 32px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  transition: background 0.3s;
+  z-index: 2;
+}
+.seta:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.seta-esq { left: 15px; }
+.seta-dir { right: 15px; }
+/* Bullets inferiores */
+.nav-setas {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+.seta1, .seta2, .seta3 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+#carrossel1:checked ~ .nav-setas .seta1,
+#carrossel2:checked ~ .nav-setas .seta2,
+#carrossel3:checked ~ .nav-setas .seta3 {
+  background: #ffffff;
+  transform: scale(1.2);
+}

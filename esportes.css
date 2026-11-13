@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    color: white;
+    font-family:magz;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_fixo{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #1f0362;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.pesquisa{
+    background-color: #016785;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.icone{
+height: 130px;
+background-color: #ffffff;
+margin-top: 20px;
+align-items: center;
+margin-right: 10px;
+margin-left: 100px;
+}
+.RODAPE{
+    background-color: #016785;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+     padding: 4px;
+    margin-top: 50px;
+   
+}
+
+.texto_rodape{
+    color: #1f0362;
+    font-family: poppins;
+    margin-left: 80px;
+}
+
+.a_rodape{
+    color: #1f0362;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+.a_rodape:hover{
+    color: white
+}
+
+.numero_de_tel{
+    color: #1f0362;
+    font-family: poppins;
+    margin-left: 80px;
+}
+
+.ICONES_RODAPE{
+    margin-left: -300px;
+}
+
+#patro{
+    margin-left: 60px;
+    gap: -20px;
+}
+  
+#icone{
+    height: 130px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 110px;
+    
+}
+#icones{
+    height: 130px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 115px;
+    
+}
+.icones{
+    height: 130px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 100px;
+    
+}
+.esportes{
+    font-family: magz, sans-serif;
+    color: #016785;
+    margin-top: 10px;
+    margin-left: 650px;
+    font-size: 60px;
+   
+}

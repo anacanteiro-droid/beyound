@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #000;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.pagina {
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #000;
+
+    overflow: hidden;
+}
+
+
+
+
+.logo {
+    position: absolute;
+
+    width: 500px;
+    height: auto;
+
+    left: 50%;
+    top: 30%;
+
+    transform: translate(-50%, -50%);
+
+    object-fit: contain;
+}
+
+
+
+
+.botao {
+    position: absolute;
+
+    width: 317px;
+    height: 54px;
+
+    border: none;
+    border-radius: 35px;
+
+    background: #007b9d;
+    color: #ffffff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+
+
+.botao-cadastro {
+    left: 50%;
+    top: 55%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+
+.botao-login {
+    left: 50%;
+    top: 66%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.botao:hover {
+    background: #008bad;
+
+    transform: translate(-50%, -50%) scale(1.02);
+}
+
+
+
+
+.botao:active {
+    transform: translate(-50%, -50%) scale(0.97);
+}
+
+.cadastro{
+    text-decoration: none;
+    color: white;
+}

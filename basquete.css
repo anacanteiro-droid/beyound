@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    color: white;
+    font-family:magz, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+
+.menu_fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f0362;
+}
+
+.a_menu{
+    color: white;
+    text-decoration: none;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.pesquisa{
+    background-color: #016785;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+main{
+    margin-top: 25px;
+}
+
+.caixas{
+    border-radius: 5px;
+}
+
+#icones_fut{
+    background-color: #1f0362;
+}
+
+.icone{
+    background-color: white;
+    border-radius: 12px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.ICONES{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.adicionar_ao_carrinho{
+    background-color: #016785;
+    font-family:poppins;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.adicionar_ao_carrinho:hover{
+    background-color: white;
+}
+
+.texto_bola{
+    font-family: 'poppins';
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.nome_produto_bola{
+    color: white;
+    font-family: poppins;
+    text-align: center;
+}
+
+.preço{
+    font-family:magz, sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: -10px;
+}
+
+#RS{
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.VENDAS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos{
+    border: 2px solid #1f0362;
+    width: 200px;
+    height: 550px;
+    padding: 3px;
+    margin-left: 8px;
+    border-radius: 16px;
+    background-color: #1f0362;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.imagem{
+    background-color: #016785;
+    border-radius: 16px;
+}
+
+#botao{
+    text-decoration: none;
+    color: white;
+}
+
+#botao:hover{
+    color: #016785;
+}
+
+
+
+
+
+.RODAPE{
+    background-color: #016785;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.texto_rodape{
+    color: #1f0362;
+    font-family: poppins;
+    margin-left: 15px;
+}
+
+.a_rodape{
+    color: #1f0362;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+.a_rodape:hover{
+    color: white
+}
+
+.numero_de_tel{
+    color: #1f0362;
+    font-family: poppins;
+}
+
+.ICONES_RODAPE{
+    margin-left: -380px;
+}
